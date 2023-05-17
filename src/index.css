@@ -1,13 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.screenHeight {
+  background-color: whitesmoke;
+  height: 910px;
+  width: 85%;
+}
+
+.spyHeight {
+  height: 790px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow: auto;
+}
+
+.cardBg {
+  background: transparent;
+  color: azure;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+
+.bgImg {
+  background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/px1594884-image-kwvxry3h.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a3178c34f07eaa58879f9e3fdcd4beb2");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
